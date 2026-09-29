@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"titulo": "CHOCANTE! NOVA REGRA VAI PROIBIR CELULAR PARA TODOS OS ADOLESCENTES NAS ESCOLAS!",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "Uma nova regra nacional vai proibir completamente que adolescentes usem celulares dentro e fora das escolas. Segundo informações que estão circulando nas redes sociais, estudantes entre 13 e 16 anos também não poderão utilizar o aparelho durante os finais de semana. A medida teria sido criada para melhorar a concentração dos alunos e começaria a valer imediatamente em todas as escolas do Brasil. Especialistas afirmam que os celulares estariam causando sérios problemas na aprendizagem dos jovens. A informação está sendo compartilhada rapidamente por diversos usuários.",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "Fonte não informada", "Autor não informado" ]
+	},
+	{
+		"id": 2,
+		"titulo": "Escolas brasileiras ampliam ações de educação digital",
+		"fonte": "Ministério da Educação",
+		"autor": "Redação Educação — Portal Educacional",
+		"data": "18/09/2026",
+		"texto": "Escolas brasileiras têm ampliado atividades relacionadas à educação digital, ensinando estudantes a verificar informações encontradas na internet e nas redes sociais. Entre as estratégias utilizadas estão a comparação entre diferentes fontes, a identificação de conteúdos manipulados e a verificação da data em que uma informação foi publicada. Professores também têm incentivado os alunos a observar quem publicou determinado conteúdo antes de compartilhá-lo.",
+		"classificacao": "confiavel",
+		"sinaisDeAlerta": [ "Fonte identificada e confiável", "Autor e data informados", "Sem linguagem sensacionalista" ]
+	},
+	{
+		"id": 3,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 4,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 5,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 6,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 7,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 8,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 9,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 10,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 11,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 12,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 13,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 14,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	},
+	{
+		"id": 15,
+		"titulo": "...",
+		"fonte": "",
+		"autor": "",
+		"data": "12/04/2024",
+		"texto": "...",
+		"classificacao": "falsa",
+		"sinaisDeAlerta": [ "...", "..." ]
+	}
+]
