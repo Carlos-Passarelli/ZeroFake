@@ -21,132 +21,132 @@
 	},
 	{
 		"id": 3,
-		"titulo": "...",
+		"titulo": "INTERNET VAI ACABAR COM A MEMÓRIA DOS ADOLESCENTES, DIZEM ESPECIALISTAS",
 		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"autor": "Lucas Ferreira",
+		"data": "23/08/2023",
+		"texto": "Um estudo que voltou a circular nas redes sociais afirma que passar muito tempo na internet pode fazer adolescentes perderem parte da memória de forma permanente. Segundo a publicação, jovens que usam redes sociais todos os dias teriam até 70% mais chances de esquecer informações importantes. O estudo também diz que ficar algumas horas longe do celular seria suficiente para recuperar a memória. Porém, a publicação não informa o nome dos pesquisadores, a universidade responsável ou onde o estudo foi realizado.",
+		"classificacao": "duvidosa",
+		"sinaisDeAlerta": [ "Autor desconhecido", "Fonte não informada", "Linguagem sensacionalista" ]
 	},
 	{
 		"id": 4,
-		"titulo": "...",
+		"titulo": "COMER CHOCOLATE ANTES DA PROVA PODE AUMENTAR A INTELIGÊNCIA EM 200%!",
 		"fonte": "",
 		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
+		"data": "05/06/2022",
+		"texto": "Uma pesquisa divulgada recentemente afirma que comer chocolate alguns minutos antes de uma prova pode aumentar a inteligência dos estudantes em até 200%. De acordo com a informação, o açúcar presente no chocolate faria o cérebro trabalhar mais rapido e ajudaria os alunos a responderem questões difíceis. A descoberta teria sido feita por cientistas brasileiros e já estaria sendo utilizada por varias escolas. A publicação recomenda que estudantes comam chocolate antes de todas as provas para melhorar seu desempenho.",
 		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"sinaisDeAlerta": [ "Fonte não informada", "Autor não informado", "Título chamativo e sensacionalista", "Data ultrapassada" ]
 	},
 	{
 		"id": 5,
-		"titulo": "...",
-		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"titulo": "Brasil registra avanços na vacinação de adolescentes.",
+		"fonte": "Ministério da Saúde",
+		"autor": "Mariana Costa — Redação Saúde",
+		"data": "10/09/2026",
+		"texto": "Campanhas de vacinação continuam sendo realizadas no Brasil para ampliar a proteção da população contra diferentes doenças. As vacinas recomendadas para adolescentes podem variar de acordo com a idade e o histórico de vacinação. Por isso, órgãos de saúde orientam que famílias consultem os serviços oficiais para verificar quais doses estão indicadas. A vacinação é acompanhada por programas de saúde pública e informações oficiais podem ser consultadas nos canais do governo.",
+		"classificacao": "confiavel",
+		"sinaisDeAlerta": [ "Autor confiável", "Fonte confiável", "Sem linguagem sensacionalista", "Data atual" ]
 	},
 	{
 		"id": 6,
-		"titulo": "...",
+		"titulo": "ATENÇÃO! NOVO APLICATIVO CONSEGUE DESCOBRIR SE UMA PESSOA ESTÁ MENTINDO!",
 		"fonte": "",
 		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"data": "14/02/2024",
+		"texto": "Um aplicativo que teria sido desenvolvido por estudantes afirma conseguir descobrir quando uma pessoa está mentindo apenas analisando seu rosto. Segundo informações divulgadas nas redes sociais, a tecnologia consegue identificar movimentos dos olhos e expressões faciais associados à mentira. O aplicativo estaria sendo testado em escolas e poderia ser lançado gratuitamente para celulares ainda este ano. Nenhuma universidade, empresa ou pesquisador responsável pelo projeto foi identificado na publicação.",
+		"classificacao": "duvidosa",
+		"sinaisDeAlerta": [ "Fonte não informada", "Autor não informado", "Título chamativo e sensacionalista", "Linguagem sensacionalista" ]
 	},
 	{
 		"id": 7,
-		"titulo": "...",
+		"titulo": "CIENTISTAS DESCOBREM QUE DORMIR COM O CELULAR PERTO DA CABEÇA DEIXA O CÉREBRO “DESLIGADO”",
 		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
+		"autor": "Rafael Mendes",
+		"data": "19/11/2021",
+		"texto": "Uma suposta pesquisa internacional afirma que dormir com o celular próximo da cabeça pode fazer o cérebro “desligar” durante algumas horas. De acordo com a notícia, as ondas emitidas pelo aparelho seriam capazes de diminuir a atividade cerebral em até 40%. Os pesquisadores recomendam que todos os adolescentes deixem seus celulares em outro cômodo durante a noite para evitar danos permanentes. A noticia voltou a circular nas redes sociais nos ultimos dias, sendo compartilhada por milhares de pessoas.",
 		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"sinaisDeAlerta": [ "Autor desconhecido", "Título chamativo e sensacionalista", "Data ultrapassada", "Linguagem sensacionalista", "Fonte não informada" ]
 	},
 	{
 		"id": 8,
-		"titulo": "...",
-		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"titulo": "Uso responsável da internet ajuda estudantes a identificar informações falsas.",
+		"fonte": "UNESCO — Organização das Nações Unidas para a Educação, a Ciência e a Cultura.",
+		"autor": "Redação UNESCO",
+		"data": "21/09/2026",
+		"texto": "Especialistas em educação digital recomendam que estudantes adotem alguns cuidados antes de compartilhar informações encontradas na internet. Entre eles estão verificar a fonte da notícia, conferir a data da publicação, procurar a mesma informação em outros veículos e desconfiar de títulos exageradamente sensacionalistas. Também é importante verificar se uma imagem ou vídeo está sendo utilizado fora de seu contexto original. Esses hábitos podem ajudar os usuários a evitar a propagação de informações falsas.",
+		"classificacao": "confiavel",
+		"sinaisDeAlerta": [ "Sem linguagem sensacionalista", "Data Atual", "Autor confiável", "Fonte confiável" ]
 	},
 	{
 		"id": 9,
-		"titulo": "...",
+		"titulo": "NOVO DESAFIO DA INTERNET FAZ CELULAR CARREGAR 100% EM APENAS 30 SEGUNDOS!",
 		"fonte": "",
 		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
+		"data": "02/03/2023",
+		"texto": "Um novo desafio que está viralizando promete ensinar adolescentes a carregar qualquer celular completamente em apenas 30 segundos. Segundo os videos compartilhados, basta colocar o aparelho em uma determinada posição e abrir um aplicativo especifico enquanto o carregador está conectado. Milhares de pessoas estariam testando o método e afirmando que seus celulares carregaram muito mais rápido. Especialistas recomendam que o método seja feito várias vezes para melhorar o resultado.",
 		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"sinaisDeAlerta": [ "Data ultrapassada", "Fonte não informada", "Autor não informado", "Linguagem sensacionalista" ]
 	},
 	{
 		"id": 10,
-		"titulo": "...",
+		"titulo": "PESQUISA AFIRMA QUE JOGAR VIDEOGAME MELHORA TODAS AS NOTAS NA ESCOLA",
 		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"autor": "Camila Rodrigues",
+		"data": "11/07/2022",
+		"texto": "Uma pesquisa que voltou a circular na internet afirma que adolescentes que jogam videogame diariamente apresentam notas até 50% maiores do que estudantes que não jogam. Segundo o texto, os jogos ajudariam diretamente na matemática, português, história e ciências. A publicação afirma que jogar pelo menos duas horas por dia seria suficiente para melhorar o desempenho escolar. Entretanto, o texto não apresenta o nome dos pesquisadores, o número de estudantes analisados ou a instituição responsável pela pesquisa.",
+		"classificacao": "duvidosa",
+		"sinaisDeAlerta": [ "Autor desconhecido", "Título chamativo e sensacionalista", "Linguagem sensacionalista", "Data ultrapassada", "Fonte não informada" ]
 	},
 	{
 		"id": 11,
-		"titulo": "...",
-		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"titulo": "Plataformas digitais adotam medidas contra conteúdos falsos.",
+		"fonte": "Agência Lupa — informações sobre verificação de fatos e combate à desinformação.",
+		"autor": "Redação Agência Lupa",
+		"data": "07/08/2026",
+		"texto": "Redes sociais e plataformas digitais utilizam diferentes mecanismos para tentar reduzir a circulação de conteúdos falsos ou enganosos. Entre essas medidas estão avisos sobre conteúdos contestados, sistemas de denúncia e parcerias com organizações de verificação de fatos. Apesar dessas ferramentas, especialistas destacam que usuários também possuem um papel importante ao verificar informações antes de compartilhá-las.",
+		"classificacao": "confiavel",
+		"sinaisDeAlerta": [ "Autor confiável", "Fonte confiável", "Sem linguagem sensacionalista", "Data atual" ]
 	},
 	{
 		"id": 12,
-		"titulo": "...",
+		"titulo": "ALERTA! NOVA ATUALIZAÇÃO DO CELULAR VAI APAGAR TODAS AS FOTOS DE QUEM NÃO COMPARTILHAR ESTA MENSAGEM!",
 		"fonte": "",
 		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
+		"data": "16/05/2023",
+		"texto": "Uma mensagem que está sendo compartilhada em aplicativos de conversa afirma que uma nova atualização dos celulares vai apagar fotos, vídeos e contatos dos usuários que não encaminharem o aviso para pelo menos 10 pessoas. Segundo a mensagem, a atualização começaria durante a madrugada e afetaria aparelhos de diversas marcas. O texto pede que os usuários compartilhem a informação rapidamente para evitar perder seus arquivos.",
 		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"sinaisDeAlerta": [ "Título chamativo e sensacionalista", "Fonte não informada", "Autor não informado", "Data ultrapassada" ]
 	},
 	{
 		"id": 13,
-		"titulo": "...",
+		"titulo": "CHUVA DE UMA SEMANA INTEIRA PODE FAZER CIDADE FICAR SEM INTERNET, AFIRMA MENSAGEM",
 		"fonte": "",
 		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"data": "28/01/2024",
+		"texto": "Uma publicação compartilhada nas redes sociais afirma que uma semana de chuvas fortes pode provocar uma queda geral na internet em várias cidades brasileiras. Segundo o texto, a água poderia interferir diretamente nos satélites responsáveis pela conexão e deixar milhões de pessoas sem acesso à rede. A mensagem recomenda que moradores façam downloads de filmes, músicas e documentos antes da chegada das chuvas. Nenhum órgão meteorológico ou empresa de telecomunicações é citado na publicação.",
+		"classificacao": "duvidosa",
+		"sinaisDeAlerta": [ "Fonte não informada", "Autor não informado", "Data ultrapassada" ]
 	},
 	{
 		"id": 14,
-		"titulo": "...",
+		"titulo": "ESTUDANTES QUE ESCUTAM MÚSICA CLÁSSICA FICAM 3 VEZES MAIS INTELIGENTES, DIZ PESQUISA",
 		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
+		"autor": "Gabriel Oliveira",
+		"data": "09/10/2020",
+		"texto": "Uma suposta pesquisa realizada por cientistas afirma que adolescentes que escutam música clássica durante os estudos podem ficar três vezes mais inteligentes. De acordo com a notícia, apenas 20 minutos de música clássica por dia seriam suficientes para aumentar a capacidade do cérebro. A pesquisa também afirma que estudantes que escutam música todos os dias conseguem aprender matérias escolares muito mais rapido. A informação voltou a ser compartilhada nas redes sociais como se fosse uma descoberta recente.",
 		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"sinaisDeAlerta": [ "Autor desconhecido", "Título chamativo e sensacionalista", "Linguagem sensacionalista", "Data ultrapassada" ]
 	},
 	{
 		"id": 15,
-		"titulo": "...",
-		"fonte": "",
-		"autor": "",
-		"data": "12/04/2024",
-		"texto": "...",
-		"classificacao": "falsa",
-		"sinaisDeAlerta": [ "...", "..." ]
+		"titulo": "Verificação de informações se torna importante no ambiente digital.",
+		"fonte": "Agência Brasil — conteúdos sobre educação midiática e verificação de informações.",
+		"autor": "Redação Agência Brasil",
+		"data": "25/09/2026",
+		"texto": "Com o crescimento da quantidade de informações disponíveis na internet, verificar a origem de uma notícia antes de compartilhá-la é uma prática importante. Uma das recomendações de organizações de checagem é procurar a informação original e comparar o conteúdo com outras fontes confiáveis. Também é importante observar se a notícia apresenta autor, data de publicação, contexto e fontes identificáveis. Uma notícia antiga pode voltar a circular anos depois e parecer atual quando é compartilhada sem sua data original.",
+		"classificacao": "confiavel",
+		"sinaisDeAlerta": [ "Fonte confiável", "Autor confiável", "Data atual", "Sem linguagem sensacionalista" ]
 	}
 ]
