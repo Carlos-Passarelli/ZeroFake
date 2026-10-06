@@ -71,11 +71,10 @@
             // 
             // lblNoticia
             // 
-            lblNoticia.AutoSize = true;
             lblNoticia.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblNoticia.Location = new Point(16, 170);
             lblNoticia.Name = "lblNoticia";
-            lblNoticia.Size = new Size(181, 18);
+            lblNoticia.Size = new Size(696, 200);
             lblNoticia.TabIndex = 2;
             lblNoticia.Text = "Sua notícia aparece aqui";
             // 
@@ -122,23 +121,22 @@
             gbxNoticia.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             gbxNoticia.Location = new Point(12, 67);
             gbxNoticia.Name = "gbxNoticia";
-            gbxNoticia.Size = new Size(729, 401);
+            gbxNoticia.Size = new Size(730, 401);
             gbxNoticia.TabIndex = 6;
             gbxNoticia.TabStop = false;
             gbxNoticia.Text = "Analise a notícia abaixo:";
             // 
             // chkAutor
             // 
-            chkAutor.AutoSize = true;
             chkAutor.Cursor = Cursors.Hand;
             chkAutor.Enabled = false;
             chkAutor.FlatStyle = FlatStyle.Popup;
             chkAutor.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            chkAutor.Location = new Point(27, 483);
+            chkAutor.Location = new Point(12, 474);
             chkAutor.Name = "chkAutor";
-            chkAutor.Size = new Size(114, 24);
+            chkAutor.Size = new Size(147, 24);
             chkAutor.TabIndex = 7;
-            chkAutor.Text = "Autor confiável";
+            chkAutor.Text = "Autor desconhecido";
             chkAutor.UseVisualStyleBackColor = true;
             // 
             // chkFonte
@@ -148,11 +146,11 @@
             chkFonte.Enabled = false;
             chkFonte.FlatStyle = FlatStyle.Popup;
             chkFonte.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            chkFonte.Location = new Point(498, 483);
+            chkFonte.Location = new Point(226, 504);
             chkFonte.Name = "chkFonte";
-            chkFonte.Size = new Size(117, 24);
+            chkFonte.Size = new Size(149, 24);
             chkFonte.TabIndex = 8;
-            chkFonte.Text = "Fonte confiável";
+            chkFonte.Text = "Fonte desconhecida";
             chkFonte.UseVisualStyleBackColor = true;
             // 
             // chkData
@@ -162,11 +160,11 @@
             chkData.Enabled = false;
             chkData.FlatStyle = FlatStyle.Popup;
             chkData.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            chkData.Location = new Point(302, 483);
+            chkData.Location = new Point(226, 474);
             chkData.Name = "chkData";
-            chkData.Size = new Size(190, 24);
+            chkData.Size = new Size(180, 24);
             chkData.TabIndex = 9;
-            chkData.Text = "Data de publicação recente";
+            chkData.Text = "Data de publicação antiga";
             chkData.UseVisualStyleBackColor = true;
             // 
             // chkLinguagem
@@ -176,11 +174,11 @@
             chkLinguagem.Enabled = false;
             chkLinguagem.FlatStyle = FlatStyle.Popup;
             chkLinguagem.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            chkLinguagem.Location = new Point(147, 483);
+            chkLinguagem.Location = new Point(12, 504);
             chkLinguagem.Name = "chkLinguagem";
-            chkLinguagem.Size = new Size(149, 24);
+            chkLinguagem.Size = new Size(187, 24);
             chkLinguagem.TabIndex = 10;
-            chkLinguagem.Text = "Linguagem confiável";
+            chkLinguagem.Text = "Linguagem sensacionalista";
             chkLinguagem.UseVisualStyleBackColor = true;
             // 
             // chkTitulo
@@ -190,11 +188,11 @@
             chkTitulo.Enabled = false;
             chkTitulo.FlatStyle = FlatStyle.Popup;
             chkTitulo.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            chkTitulo.Location = new Point(621, 483);
+            chkTitulo.Location = new Point(422, 474);
             chkTitulo.Name = "chkTitulo";
-            chkTitulo.Size = new Size(114, 24);
+            chkTitulo.Size = new Size(126, 24);
             chkTitulo.TabIndex = 11;
-            chkTitulo.Text = "Título confiável";
+            chkTitulo.Text = "Título exagerado";
             chkTitulo.UseVisualStyleBackColor = true;
             // 
             // btnFinalizarAnalise
@@ -205,7 +203,7 @@
             btnFinalizarAnalise.Enabled = false;
             btnFinalizarAnalise.FlatStyle = FlatStyle.Popup;
             btnFinalizarAnalise.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnFinalizarAnalise.Location = new Point(12, 525);
+            btnFinalizarAnalise.Location = new Point(12, 544);
             btnFinalizarAnalise.Name = "btnFinalizarAnalise";
             btnFinalizarAnalise.Size = new Size(729, 37);
             btnFinalizarAnalise.TabIndex = 12;
@@ -217,7 +215,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(754, 579);
+            ClientSize = new Size(754, 594);
             Controls.Add(btnFinalizarAnalise);
             Controls.Add(chkTitulo);
             Controls.Add(chkLinguagem);

@@ -13,6 +13,9 @@
     <Compile Update="DetectorDeFakeNews\ResultadoDetectorDeFakeNews.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DetectorDeFakeNews\FinalDetectorDeFakeNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Quiz\FinalQuiz.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -132,9 +132,9 @@
             label7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.Location = new Point(112, 101);
             label7.Name = "label7";
-            label7.Size = new Size(201, 19);
+            label7.Size = new Size(200, 19);
             label7.TabIndex = 12;
-            label7.Text = "checkboxes preenchidas";
+            label7.Text = "qtd marcado / qtd correta";
             // 
             // ResultadoDetectorDeFakeNews
             // 

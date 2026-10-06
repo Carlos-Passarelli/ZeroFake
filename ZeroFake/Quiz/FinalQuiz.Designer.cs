@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FinalQuiz));
-            label1 = new Label();
             label2 = new Label();
             lblQuantidadeCorretas = new Label();
             lblQuantidadeIncorretas = new Label();
@@ -37,19 +36,10 @@
             panel1 = new Panel();
             label5 = new Label();
             btnFechar = new Button();
+            btnTentarNovamente = new Button();
+            lblMensagemDesempenho = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(178, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(161, 32);
-            label1.TabIndex = 0;
-            label1.Text = "Parabéns!!!";
             // 
             // label2
             // 
@@ -122,12 +112,37 @@
             btnFechar.FlatStyle = FlatStyle.Popup;
             btnFechar.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnFechar.ForeColor = Color.White;
-            btnFechar.Location = new Point(397, 195);
+            btnFechar.Location = new Point(337, 195);
             btnFechar.Name = "btnFechar";
-            btnFechar.Size = new Size(105, 33);
+            btnFechar.Size = new Size(165, 33);
             btnFechar.TabIndex = 10;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
+            // 
+            // btnTentarNovamente
+            // 
+            btnTentarNovamente.BackColor = Color.DodgerBlue;
+            btnTentarNovamente.Cursor = Cursors.Hand;
+            btnTentarNovamente.FlatStyle = FlatStyle.Popup;
+            btnTentarNovamente.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnTentarNovamente.ForeColor = Color.White;
+            btnTentarNovamente.Location = new Point(12, 195);
+            btnTentarNovamente.Name = "btnTentarNovamente";
+            btnTentarNovamente.Size = new Size(165, 33);
+            btnTentarNovamente.TabIndex = 11;
+            btnTentarNovamente.Text = "Tentar novamente";
+            btnTentarNovamente.UseVisualStyleBackColor = false;
+            // 
+            // lblMensagemDesempenho
+            // 
+            lblMensagemDesempenho.AutoSize = true;
+            lblMensagemDesempenho.BackColor = Color.Transparent;
+            lblMensagemDesempenho.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblMensagemDesempenho.Location = new Point(96, 22);
+            lblMensagemDesempenho.Name = "lblMensagemDesempenho";
+            lblMensagemDesempenho.Size = new Size(334, 32);
+            lblMensagemDesempenho.TabIndex = 12;
+            lblMensagemDesempenho.Text = "Mensagem desempenho";
             // 
             // FinalQuiz
             // 
@@ -136,12 +151,13 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(514, 240);
+            Controls.Add(lblMensagemDesempenho);
+            Controls.Add(btnTentarNovamente);
             Controls.Add(btnFechar);
             Controls.Add(label5);
             Controls.Add(panel1);
-            Controls.Add(label1);
             Name = "FinalQuiz";
-            Text = "Final do quiz";
+            Text = "Final do Quiz";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -149,8 +165,6 @@
         }
 
         #endregion
-
-        private Label label1;
         private Label label2;
         private Label lblQuantidadeCorretas;
         private Label lblQuantidadeIncorretas;
@@ -158,5 +172,7 @@
         private Panel panel1;
         private Label label5;
         private Button btnFechar;
+        private Button btnTentarNovamente;
+        private Label lblMensagemDesempenho;
     }
 }
