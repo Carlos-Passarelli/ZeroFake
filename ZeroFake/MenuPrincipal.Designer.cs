@@ -60,6 +60,7 @@
             btnDetector.TabIndex = 2;
             btnDetector.Text = "Detector de Fake News";
             btnDetector.UseVisualStyleBackColor = false;
+            btnDetector.Click += AbrirDetectorFakeNews;
             // 
             // btnAprenda
             // 
@@ -73,6 +74,7 @@
             btnAprenda.TabIndex = 3;
             btnAprenda.Text = "Aprenda";
             btnAprenda.UseVisualStyleBackColor = false;
+            btnAprenda.Click += AbrirAprenda1;
             // 
             // btnQuiz
             // 
@@ -86,6 +88,7 @@
             btnQuiz.TabIndex = 4;
             btnQuiz.Text = "Quiz";
             btnQuiz.UseVisualStyleBackColor = false;
+            btnQuiz.Click += AbrirQuiz;
             // 
             // btnSair
             // 
@@ -99,6 +102,7 @@
             btnSair.TabIndex = 5;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
+            btnSair.Click += Sair;
             // 
             // frmMenuPrincipal
             // 
@@ -113,6 +117,7 @@
             Controls.Add(btnAprenda);
             Controls.Add(btnDetector);
             Controls.Add(lblZeroFake);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmMenuPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu Principal";

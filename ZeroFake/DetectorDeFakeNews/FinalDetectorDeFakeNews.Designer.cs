@@ -63,7 +63,6 @@
             label5.Size = new Size(227, 23);
             label5.TabIndex = 7;
             label5.Text = "Você analisou todas as notícias";
-            label5.Click += this.label5_Click;
             // 
             // label2
             // 

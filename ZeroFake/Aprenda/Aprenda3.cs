@@ -14,5 +14,10 @@ namespace ZeroFake
         {
             InitializeComponent();
         }
+
+        private void Fechar(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

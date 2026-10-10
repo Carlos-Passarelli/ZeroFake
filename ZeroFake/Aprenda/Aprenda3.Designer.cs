@@ -217,12 +217,13 @@
             btnFechar.FlatStyle = FlatStyle.Popup;
             btnFechar.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnFechar.ForeColor = Color.White;
-            btnFechar.Location = new Point(570, 359);
+            btnFechar.Location = new Point(551, 359);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
             btnFechar.TabIndex = 8;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
+            btnFechar.Click += Fechar;
             // 
             // pictureBox6
             // 
@@ -241,7 +242,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(687, 404);
+            ClientSize = new Size(671, 404);
             Controls.Add(pictureBox6);
             Controls.Add(btnFechar);
             Controls.Add(panel2);
@@ -251,7 +252,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmAprenda3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Aprenda - Parte 3";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

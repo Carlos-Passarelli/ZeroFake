@@ -8,11 +8,30 @@ using System.Windows.Forms;
 
 namespace ZeroFake
 {
-    public partial class RespostaQuiz : Form
+    public partial class frmRespostaQuiz : Form
     {
-        public RespostaQuiz()
+        public frmRespostaQuiz(bool acertou, string alternativaCorreta, string explicacao)
         {
             InitializeComponent();
+
+            if (acertou)
+            {
+                lblStatus.Text = "Você acertou!";
+                lblStatus.ForeColor = Color.Green;
+                lblTituloCorreta.Visible = false;
+            }
+            else
+            {
+                lblStatus.Text = "Você errou!";
+                lblStatus.ForeColor = Color.Red;
+            }
+
+            lblAlternativaCorreta.Text = alternativaCorreta + "\n\n" + explicacao;
+        }
+
+        private void btnProsseguir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

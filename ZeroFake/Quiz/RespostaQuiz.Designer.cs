@@ -1,6 +1,6 @@
 ﻿namespace ZeroFake
 {
-    partial class RespostaQuiz
+    partial class frmRespostaQuiz
     {
         /// <summary>
         /// Required designer variable.
@@ -29,65 +29,67 @@
         private void InitializeComponent()
         {
             lblStatus = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            button1 = new Button();
+            lblTituloCorreta = new Label();
+            lblAlternativaCorreta = new Label();
+            btnProsseguir = new Button();
             SuspendLayout();
             // 
             // lblStatus
             // 
-            lblStatus.AutoSize = true;
             lblStatus.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblStatus.Location = new Point(112, 9);
+            lblStatus.Location = new Point(142, 9);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(86, 29);
+            lblStatus.Size = new Size(199, 29);
             lblStatus.TabIndex = 0;
             lblStatus.Text = "Status";
+            lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // lblTituloCorreta
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 70);
-            label1.Name = "label1";
-            label1.Size = new Size(154, 19);
-            label1.TabIndex = 1;
-            label1.Text = "Alternativa correta:";
+            lblTituloCorreta.AutoSize = true;
+            lblTituloCorreta.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTituloCorreta.Location = new Point(12, 70);
+            lblTituloCorreta.Name = "lblTituloCorreta";
+            lblTituloCorreta.Size = new Size(154, 19);
+            lblTituloCorreta.TabIndex = 1;
+            lblTituloCorreta.Text = "Alternativa correta:";
             // 
-            // label2
+            // lblAlternativaCorreta
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 98);
-            label2.Name = "label2";
-            label2.Size = new Size(208, 20);
-            label2.TabIndex = 2;
-            label2.Text = "A alternativa correta aparece aqui";
+            lblAlternativaCorreta.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAlternativaCorreta.Location = new Point(12, 98);
+            lblAlternativaCorreta.Name = "lblAlternativaCorreta";
+            lblAlternativaCorreta.Size = new Size(459, 118);
+            lblAlternativaCorreta.TabIndex = 2;
+            lblAlternativaCorreta.Text = "A alternativa correta aparece aqui";
             // 
-            // button1
+            // btnProsseguir
             // 
-            button1.BackColor = Color.DodgerBlue;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(191, 177);
-            button1.Name = "button1";
-            button1.Size = new Size(105, 33);
-            button1.TabIndex = 8;
-            button1.Text = "Prosseguir";
-            button1.UseVisualStyleBackColor = false;
+            btnProsseguir.BackColor = Color.DodgerBlue;
+            btnProsseguir.Cursor = Cursors.Hand;
+            btnProsseguir.FlatStyle = FlatStyle.Popup;
+            btnProsseguir.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnProsseguir.ForeColor = Color.White;
+            btnProsseguir.Location = new Point(188, 230);
+            btnProsseguir.Name = "btnProsseguir";
+            btnProsseguir.Size = new Size(105, 33);
+            btnProsseguir.TabIndex = 8;
+            btnProsseguir.Text = "Prosseguir";
+            btnProsseguir.UseVisualStyleBackColor = false;
+            btnProsseguir.Click += btnProsseguir_Click;
             // 
-            // RespostaQuiz
+            // frmRespostaQuiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(308, 222);
-            Controls.Add(button1);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            ClientSize = new Size(483, 275);
+            Controls.Add(btnProsseguir);
+            Controls.Add(lblAlternativaCorreta);
+            Controls.Add(lblTituloCorreta);
             Controls.Add(lblStatus);
-            Name = "RespostaQuiz";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "frmRespostaQuiz";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Resposta do Quiz";
             ResumeLayout(false);
             PerformLayout();
@@ -96,8 +98,8 @@
         #endregion
 
         private Label lblStatus;
-        private Label label1;
-        private Label label2;
-        private Button button1;
+        private Label lblTituloCorreta;
+        private Label lblAlternativaCorreta;
+        private Button btnProsseguir;
     }
 }

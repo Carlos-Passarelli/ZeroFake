@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAprenda1));
             label1 = new Label();
             panel1 = new Panel();
             label3 = new Label();
@@ -102,6 +103,8 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(3, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(73, 63);
@@ -291,6 +294,7 @@
             button1.TabIndex = 6;
             button1.Text = "Prosseguir";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += AbrirAprenda2;
             // 
             // panel6
             // 
@@ -316,6 +320,8 @@
             // 
             // pictureBox6
             // 
+            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
+            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox6.Location = new Point(3, 3);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(73, 63);
@@ -355,6 +361,7 @@
             btnFechar.TabIndex = 10;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
+            btnFechar.Click += Fechar;
             // 
             // frmAprenda1
             // 
@@ -369,7 +376,9 @@
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmAprenda1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Aprenda";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

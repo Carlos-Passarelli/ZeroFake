@@ -14,5 +14,18 @@ namespace ZeroFake
         {
             InitializeComponent();
         }
+
+        private void AbrirAprenda3(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmAprenda3 tela = new frmAprenda3();
+            tela.ShowDialog();
+            this.Show();
+        }
+
+        private void Fechar(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

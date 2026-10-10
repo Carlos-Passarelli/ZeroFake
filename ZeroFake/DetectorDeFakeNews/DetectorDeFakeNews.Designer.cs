@@ -225,6 +225,7 @@
             Controls.Add(gbxNoticia);
             Controls.Add(btnComecarAnalise);
             Name = "frmDetector";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Detector de Fake News";
             gbxNoticia.ResumeLayout(false);
             gbxNoticia.PerformLayout();

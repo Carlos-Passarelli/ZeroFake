@@ -1,6 +1,6 @@
 ﻿namespace ZeroFake
 {
-    partial class FinalQuiz
+    partial class frmFinalQuiz
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FinalQuiz));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinalQuiz));
             label2 = new Label();
             lblQuantidadeCorretas = new Label();
             lblQuantidadeIncorretas = new Label();
@@ -118,11 +118,13 @@
             btnFechar.TabIndex = 10;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
+            btnFechar.Click += Fechar;
             // 
             // btnTentarNovamente
             // 
             btnTentarNovamente.BackColor = Color.DodgerBlue;
             btnTentarNovamente.Cursor = Cursors.Hand;
+            btnTentarNovamente.DialogResult = DialogResult.Retry;
             btnTentarNovamente.FlatStyle = FlatStyle.Popup;
             btnTentarNovamente.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnTentarNovamente.ForeColor = Color.White;
@@ -132,19 +134,20 @@
             btnTentarNovamente.TabIndex = 11;
             btnTentarNovamente.Text = "Tentar novamente";
             btnTentarNovamente.UseVisualStyleBackColor = false;
+            btnTentarNovamente.Click += TentarNovamente;
             // 
             // lblMensagemDesempenho
             // 
-            lblMensagemDesempenho.AutoSize = true;
             lblMensagemDesempenho.BackColor = Color.Transparent;
             lblMensagemDesempenho.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMensagemDesempenho.Location = new Point(96, 22);
+            lblMensagemDesempenho.Location = new Point(12, 22);
             lblMensagemDesempenho.Name = "lblMensagemDesempenho";
-            lblMensagemDesempenho.Size = new Size(334, 32);
+            lblMensagemDesempenho.Size = new Size(490, 32);
             lblMensagemDesempenho.TabIndex = 12;
             lblMensagemDesempenho.Text = "Mensagem desempenho";
+            lblMensagemDesempenho.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // FinalQuiz
+            // frmFinalQuiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -156,12 +159,12 @@
             Controls.Add(btnFechar);
             Controls.Add(label5);
             Controls.Add(panel1);
-            Name = "FinalQuiz";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "frmFinalQuiz";
             Text = "Final do Quiz";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "pergunta": "O que é uma fake news?",
+    "alternativas": [
+      "Uma notícia verdadeira, mas com erros de português",
+      "Uma informação falsa ou enganosa apresentada como se fosse uma notícia verdadeira",
+      "Qualquer notícia publicada nas redes sociais",
+      "Uma notícia antiga republicada por um jornal"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Fake news é uma informação falsa ou distorcida apresentada como notícia real, geralmente criada para enganar ou causar impacto emocional rápido."
+  },
+  {
+    "id": 2,
+    "pergunta": "Por que é importante verificar a fonte de uma notícia antes de compartilhar?",
+    "alternativas": [
+      "Porque sites bonitos sempre têm notícias verdadeiras",
+      "Porque quanto mais curtidas, mais confiável a notícia é",
+      "Porque a fonte ajuda a saber se a informação vem de um veículo conhecido e confiável",
+      "Não é necessário verificar, só compartilhar"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A fonte indica quem publicou a informação. Fontes conhecidas e confiáveis costumam ter mais compromisso com a veracidade dos fatos."
+  },
+  {
+    "id": 3,
+    "pergunta": "O que caracteriza um título sensacionalista?",
+    "alternativas": [
+      "Um título curto e direto",
+      "Um título que usa letras maiúsculas, exclamações e exagera para chamar atenção",
+      "Um título escrito em outro idioma",
+      "Um título que cita o nome do autor"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Títulos sensacionalistas usam exagero, caixa alta e apelo emocional para atrair cliques, mesmo quando o conteúdo da notícia não é tão chocante quanto parece."
+  },
+  {
+    "id": 4,
+    "pergunta": "Por que uma notícia antiga pode enganar quando é compartilhada como se fosse atual?",
+    "alternativas": [
+      "Porque notícias antigas são sempre falsas",
+      "Porque o leitor pode achar que o fato está acontecendo agora, quando já foi resolvido ou mudou",
+      "Porque notícias antigas não têm fonte",
+      "Porque o governo proíbe notícias antigas"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Sem a data correta, uma informação ultrapassada pode parecer um evento recente, levando a conclusões erradas sobre o presente."
+  },
+  {
+    "id": 5,
+    "noticiaRelacionada": 1,
+    "pergunta": "Na notícia sobre a proibição de celulares nas escolas, qual é o principal motivo para desconfiar dela?",
+    "alternativas": [
+      "O texto é muito longo",
+      "A notícia não informa fonte nem autor, só diz que 'está circulando nas redes sociais'",
+      "A notícia fala sobre tecnologia",
+      "A notícia foi publicada em um site de notícias conhecido"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Sem fonte oficial nem autor identificado, não há como confirmar se a regra realmente existe — um forte sinal de alerta."
+  },
+  {
+    "id": 6,
+    "noticiaRelacionada": 4,
+    "pergunta": "O que torna pouco confiável a notícia sobre o chocolate aumentar a inteligência em 200%?",
+    "alternativas": [
+      "A promessa de um resultado exagerado, sem fonte ou autor identificado",
+      "O fato de falar sobre alimentação",
+      "O texto ser curto",
+      "A notícia ser sobre estudantes"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Promessas de resultados extremos (como '200%') combinadas com ausência de fonte e autor são um padrão comum em notícias falsas."
+  },
+  {
+    "id": 7,
+    "noticiaRelacionada": 5,
+    "pergunta": "O que torna a notícia sobre a vacinação de adolescentes mais confiável?",
+    "alternativas": [
+      "Ela tem fonte oficial (Ministério da Saúde), autor identificado e data atual",
+      "Ela foi muito compartilhada nas redes sociais",
+      "Ela tem um título chamativo",
+      "Ela não cita nenhuma fonte"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Fonte oficial, autor identificado e data atual são sinais que aumentam bastante a credibilidade de uma notícia."
+  },
+  {
+    "id": 8,
+    "noticiaRelacionada": 13,
+    "pergunta": "Por que a notícia sobre a chuva que 'derrubaria a internet' é considerada duvidosa, e não com certeza falsa?",
+    "alternativas": [
+      "Porque chuva nunca afeta a internet",
+      "Porque, apesar de não ter fonte nem autor, o tema é tecnicamente possível, por isso pede mais verificação antes de descartar",
+      "Porque a notícia tem data atual",
+      "Porque foi publicada por um órgão meteorológico oficial"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Notícias duvidosas ficam numa zona cinzenta: não há prova de que sejam verdadeiras, mas também não são claramente absurdas — por isso pedem mais pesquisa antes de compartilhar ou descartar."
+  },
+  {
+    "id": 9,
+    "pergunta": "Leia o trecho: 'URGENTE!!! Hackers estão invadindo celulares pelo Wi-Fi da escola, compartilhe antes que seja tarde!!!' Qual é o sinal de alerta mais evidente nesse trecho?",
+    "alternativas": [
+      "O uso de pontuação exagerada e urgência para pressionar o compartilhamento",
+      "O texto menciona Wi-Fi",
+      "O texto fala sobre escola",
+      "O texto é curto"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Uso de exclamações em excesso, caixa alta e pedido urgente para compartilhar são táticas clássicas para não dar tempo do leitor verificar a informação."
+  },
+  {
+    "id": 10,
+    "pergunta": "Leia o trecho: 'Segundo uma pesquisa, 9 em cada 10 jovens não sabem usar a internet corretamente.' Qual o problema desse trecho?",
+    "alternativas": [
+      "Usa uma porcentagem muito precisa",
+      "Fala sobre jovens",
+      "Apresenta um dado estatístico sem identificar quem realizou a pesquisa",
+      "O trecho é muito curto para ser verificado"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Estatísticas sem fonte identificável não podem ser verificadas e muitas vezes são inventadas para dar aparência de credibilidade científica a uma afirmação."
+  }
+]

@@ -32,8 +32,8 @@
             label2 = new Label();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
-            label3 = new Label();
             label4 = new Label();
+            label3 = new Label();
             panel2 = new Panel();
             pictureBox2 = new PictureBox();
             label5 = new Label();
@@ -90,16 +90,6 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(18, 173);
-            label3.Name = "label3";
-            label3.Size = new Size(202, 22);
-            label3.TabIndex = 4;
-            label3.Text = "Agências de notícias";
-            // 
             // label4
             // 
             label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -109,6 +99,16 @@
             label4.TabIndex = 4;
             label4.Text = "Fontes que produzem notícias jornalísticas";
             label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(18, 173);
+            label3.Name = "label3";
+            label3.Size = new Size(202, 22);
+            label3.TabIndex = 4;
+            label3.Text = "Agências de notícias";
             // 
             // panel2
             // 
@@ -200,6 +200,7 @@
             btnProsseguir.TabIndex = 7;
             btnProsseguir.Text = "Prosseguir";
             btnProsseguir.UseVisualStyleBackColor = false;
+            btnProsseguir.Click += AbrirAprenda3;
             // 
             // btnFechar
             // 
@@ -214,6 +215,7 @@
             btnFechar.TabIndex = 9;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
+            btnFechar.Click += Fechar;
             // 
             // frmAprenda2
             // 
@@ -227,7 +229,9 @@
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmAprenda2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Aprenda - Parte 2";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
