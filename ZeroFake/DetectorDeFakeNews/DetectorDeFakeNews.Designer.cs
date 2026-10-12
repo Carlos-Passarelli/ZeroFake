@@ -41,6 +41,7 @@
             chkLinguagem = new CheckBox();
             chkTitulo = new CheckBox();
             btnFinalizarAnalise = new Button();
+            btnSair = new Button();
             gbxNoticia.SuspendLayout();
             SuspendLayout();
             // 
@@ -205,10 +206,25 @@
             btnFinalizarAnalise.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnFinalizarAnalise.Location = new Point(12, 544);
             btnFinalizarAnalise.Name = "btnFinalizarAnalise";
-            btnFinalizarAnalise.Size = new Size(729, 37);
+            btnFinalizarAnalise.Size = new Size(550, 37);
             btnFinalizarAnalise.TabIndex = 12;
             btnFinalizarAnalise.Text = "Finalizar Análise";
             btnFinalizarAnalise.UseVisualStyleBackColor = false;
+            // 
+            // btnSair
+            // 
+            btnSair.AutoSize = true;
+            btnSair.BackColor = Color.Red;
+            btnSair.Cursor = Cursors.Hand;
+            btnSair.FlatStyle = FlatStyle.Popup;
+            btnSair.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSair.ForeColor = Color.White;
+            btnSair.Location = new Point(572, 544);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(169, 37);
+            btnSair.TabIndex = 13;
+            btnSair.Text = "Sair";
+            btnSair.UseVisualStyleBackColor = false;
             // 
             // frmDetector
             // 
@@ -216,6 +232,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(754, 594);
+            Controls.Add(btnSair);
             Controls.Add(btnFinalizarAnalise);
             Controls.Add(chkTitulo);
             Controls.Add(chkLinguagem);
@@ -248,5 +265,6 @@
         private CheckBox chkLinguagem;
         private CheckBox chkTitulo;
         private Button btnFinalizarAnalise;
+        private Button btnSair;
     }
 }

@@ -62,9 +62,9 @@
             // label3
             // 
             label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(141, 132);
+            label3.Location = new Point(12, 156);
             label3.Name = "label3";
-            label3.Size = new Size(239, 18);
+            label3.Size = new Size(368, 75);
             label3.TabIndex = 2;
             label3.Text = "Sinais de alerta aparecem aqui";
             // 
@@ -95,12 +95,13 @@
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(53, 188);
+            button1.Location = new Point(53, 239);
             button1.Name = "button1";
             button1.Size = new Size(277, 33);
             button1.TabIndex = 5;
             button1.Text = "Prosseguir para a próxima notícia";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btnFechar
             // 
@@ -109,7 +110,7 @@
             btnFechar.FlatStyle = FlatStyle.Popup;
             btnFechar.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnFechar.ForeColor = Color.White;
-            btnFechar.Location = new Point(53, 227);
+            btnFechar.Location = new Point(53, 278);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(277, 33);
             btnFechar.TabIndex = 10;
@@ -141,7 +142,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(392, 289);
+            ClientSize = new Size(392, 334);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(btnFechar);
@@ -151,6 +152,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            StartPosition = FormStartPosition.CenterScreen;
             Name = "ResultadoDetectorDeFakeNews";
             Text = "Resposta da análise";
             ResumeLayout(false);

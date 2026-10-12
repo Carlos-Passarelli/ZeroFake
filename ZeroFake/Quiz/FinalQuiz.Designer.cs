@@ -160,6 +160,7 @@
             Controls.Add(label5);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            StartPosition = FormStartPosition.CenterScreen;
             Name = "frmFinalQuiz";
             Text = "Final do Quiz";
             panel1.ResumeLayout(false);
