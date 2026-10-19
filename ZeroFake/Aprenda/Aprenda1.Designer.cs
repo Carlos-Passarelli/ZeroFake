@@ -155,6 +155,8 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.Location = new Point(3, 3);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(73, 63);
@@ -205,6 +207,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox4.Location = new Point(3, 3);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(73, 63);
@@ -255,6 +259,8 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox5.Location = new Point(3, 3);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(73, 63);
