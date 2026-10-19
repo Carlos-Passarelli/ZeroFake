@@ -51,7 +51,7 @@
             lblMensagemDesempenho.Location = new Point(121, 29);
             lblMensagemDesempenho.Name = "lblMensagemDesempenho";
             lblMensagemDesempenho.Size = new Size(334, 32);
-            lblMensagemDesempenho.TabIndex = 1;
+            lblMensagemDesempenho.TabIndex = 0;
             lblMensagemDesempenho.Text = "Mensagem desempenho";
             // 
             // label5
@@ -61,7 +61,7 @@
             label5.Location = new Point(156, 74);
             label5.Name = "label5";
             label5.Size = new Size(227, 23);
-            label5.TabIndex = 7;
+            label5.TabIndex = 0;
             label5.Text = "Você analisou todas as notícias";
             // 
             // label2
@@ -72,7 +72,7 @@
             label2.Location = new Point(13, 13);
             label2.Name = "label2";
             label2.Size = new Size(164, 19);
-            label2.TabIndex = 8;
+            label2.TabIndex = 0;
             label2.Text = "Notícias Analisadas:";
             // 
             // lblQuantidadeCheckboxes
@@ -82,7 +82,7 @@
             lblQuantidadeCheckboxes.Location = new Point(211, 43);
             lblQuantidadeCheckboxes.Name = "lblQuantidadeCheckboxes";
             lblQuantidadeCheckboxes.Size = new Size(296, 19);
-            lblQuantidadeCheckboxes.TabIndex = 9;
+            lblQuantidadeCheckboxes.TabIndex = 0;
             lblQuantidadeCheckboxes.Text = "Quantidade de checkboxes acertadas";
             // 
             // label4
@@ -93,7 +93,7 @@
             label4.Location = new Point(13, 43);
             label4.Name = "label4";
             label4.Size = new Size(190, 19);
-            label4.TabIndex = 10;
+            label4.TabIndex = 0;
             label4.Text = "Checkboxes acertadas:";
             // 
             // lblQuantidadeNoticiasAnalisadas
@@ -103,7 +103,7 @@
             lblQuantidadeNoticiasAnalisadas.Location = new Point(183, 13);
             lblQuantidadeNoticiasAnalisadas.Name = "lblQuantidadeNoticiasAnalisadas";
             lblQuantidadeNoticiasAnalisadas.Size = new Size(270, 19);
-            lblQuantidadeNoticiasAnalisadas.TabIndex = 11;
+            lblQuantidadeNoticiasAnalisadas.TabIndex = 0;
             lblQuantidadeNoticiasAnalisadas.Text = "Quantidade de notícias analisadas";
             // 
             // label3
@@ -114,7 +114,7 @@
             label3.Location = new Point(15, 75);
             label3.Name = "label3";
             label3.Size = new Size(192, 19);
-            label3.TabIndex = 12;
+            label3.TabIndex = 0;
             label3.Text = "Porcentagem de acerto:";
             // 
             // lblPorcentagemAcerto
@@ -124,7 +124,7 @@
             lblPorcentagemAcerto.Location = new Point(211, 75);
             lblPorcentagemAcerto.Name = "lblPorcentagemAcerto";
             lblPorcentagemAcerto.Size = new Size(288, 19);
-            lblPorcentagemAcerto.TabIndex = 13;
+            lblPorcentagemAcerto.TabIndex = 0;
             lblPorcentagemAcerto.Text = "Porcentagem de acerto aparece aqui";
             // 
             // panel1
@@ -139,7 +139,7 @@
             panel1.Location = new Point(21, 122);
             panel1.Name = "panel1";
             panel1.Size = new Size(517, 107);
-            panel1.TabIndex = 14;
+            panel1.TabIndex = 0;
             // 
             // btnTentarNovamente
             // 
@@ -151,7 +151,7 @@
             btnTentarNovamente.Location = new Point(21, 245);
             btnTentarNovamente.Name = "btnTentarNovamente";
             btnTentarNovamente.Size = new Size(165, 33);
-            btnTentarNovamente.TabIndex = 14;
+            btnTentarNovamente.TabIndex = 2;
             btnTentarNovamente.Text = "Tentar novamente";
             btnTentarNovamente.UseVisualStyleBackColor = false;
             // 
@@ -165,7 +165,7 @@
             btnFechar.Location = new Point(373, 245);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(165, 33);
-            btnFechar.TabIndex = 15;
+            btnFechar.TabIndex = 1;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             // 
@@ -181,8 +181,8 @@
             Controls.Add(panel1);
             Controls.Add(label5);
             Controls.Add(lblMensagemDesempenho);
-            StartPosition = FormStartPosition.CenterScreen;
             Name = "frmFinalDetectorDeFakeNews";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Final do Detector de Fake News";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

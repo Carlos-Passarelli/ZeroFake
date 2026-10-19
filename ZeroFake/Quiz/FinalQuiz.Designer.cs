@@ -49,7 +49,7 @@
             label2.Location = new Point(12, 12);
             label2.Name = "label2";
             label2.Size = new Size(167, 19);
-            label2.TabIndex = 1;
+            label2.TabIndex = 0;
             label2.Text = "Respostas Corretas:";
             // 
             // lblQuantidadeCorretas
@@ -59,7 +59,7 @@
             lblQuantidadeCorretas.Location = new Point(185, 12);
             lblQuantidadeCorretas.Name = "lblQuantidadeCorretas";
             lblQuantidadeCorretas.Size = new Size(267, 19);
-            lblQuantidadeCorretas.TabIndex = 2;
+            lblQuantidadeCorretas.TabIndex = 0;
             lblQuantidadeCorretas.Text = "Quantidade de respostas corretas";
             // 
             // lblQuantidadeIncorretas
@@ -69,7 +69,7 @@
             lblQuantidadeIncorretas.Location = new Point(196, 42);
             lblQuantidadeIncorretas.Name = "lblQuantidadeIncorretas";
             lblQuantidadeIncorretas.Size = new Size(281, 19);
-            lblQuantidadeIncorretas.TabIndex = 4;
+            lblQuantidadeIncorretas.TabIndex = 0;
             lblQuantidadeIncorretas.Text = "Quantidade de respostas incorretas";
             // 
             // label4
@@ -80,7 +80,7 @@
             label4.Location = new Point(12, 42);
             label4.Name = "label4";
             label4.Size = new Size(178, 19);
-            label4.TabIndex = 3;
+            label4.TabIndex = 0;
             label4.Text = "Respostas Incorretas:";
             // 
             // panel1
@@ -93,7 +93,7 @@
             panel1.Location = new Point(12, 110);
             panel1.Name = "panel1";
             panel1.Size = new Size(490, 76);
-            panel1.TabIndex = 5;
+            panel1.TabIndex = 0;
             // 
             // label5
             // 
@@ -102,7 +102,7 @@
             label5.Location = new Point(178, 66);
             label5.Name = "label5";
             label5.Size = new Size(161, 23);
-            label5.TabIndex = 6;
+            label5.TabIndex = 0;
             label5.Text = "Você finalizou o quiz";
             // 
             // btnFechar
@@ -115,7 +115,7 @@
             btnFechar.Location = new Point(337, 195);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(165, 33);
-            btnFechar.TabIndex = 10;
+            btnFechar.TabIndex = 1;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += Fechar;
@@ -131,7 +131,7 @@
             btnTentarNovamente.Location = new Point(12, 195);
             btnTentarNovamente.Name = "btnTentarNovamente";
             btnTentarNovamente.Size = new Size(165, 33);
-            btnTentarNovamente.TabIndex = 11;
+            btnTentarNovamente.TabIndex = 2;
             btnTentarNovamente.Text = "Tentar novamente";
             btnTentarNovamente.UseVisualStyleBackColor = false;
             btnTentarNovamente.Click += TentarNovamente;
@@ -143,7 +143,7 @@
             lblMensagemDesempenho.Location = new Point(12, 22);
             lblMensagemDesempenho.Name = "lblMensagemDesempenho";
             lblMensagemDesempenho.Size = new Size(490, 32);
-            lblMensagemDesempenho.TabIndex = 12;
+            lblMensagemDesempenho.TabIndex = 0;
             lblMensagemDesempenho.Text = "Mensagem desempenho";
             lblMensagemDesempenho.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -160,8 +160,8 @@
             Controls.Add(label5);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            StartPosition = FormStartPosition.CenterScreen;
             Name = "frmFinalQuiz";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Final do Quiz";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -88,7 +88,7 @@
             panel1.Location = new Point(12, 88);
             panel1.Name = "panel1";
             panel1.Size = new Size(449, 69);
-            panel1.TabIndex = 1;
+            panel1.TabIndex = 0;
             // 
             // label3
             // 
@@ -98,7 +98,7 @@
             label3.Location = new Point(91, 24);
             label3.Name = "label3";
             label3.Size = new Size(27, 19);
-            label3.TabIndex = 3;
+            label3.TabIndex = 0;
             label3.Text = "01";
             // 
             // pictureBox1
@@ -118,7 +118,7 @@
             label4.Location = new Point(133, 40);
             label4.Name = "label4";
             label4.Size = new Size(309, 17);
-            label4.TabIndex = 4;
+            label4.TabIndex = 0;
             label4.Text = "Veja se o site ou jornal é conhecido e confiável";
             // 
             // label2
@@ -140,7 +140,7 @@
             panel3.Location = new Point(12, 260);
             panel3.Name = "panel3";
             panel3.Size = new Size(449, 69);
-            panel3.TabIndex = 5;
+            panel3.TabIndex = 0;
             // 
             // label8
             // 
@@ -150,7 +150,7 @@
             label8.Location = new Point(91, 24);
             label8.Name = "label8";
             label8.Size = new Size(27, 19);
-            label8.TabIndex = 3;
+            label8.TabIndex = 0;
             label8.Text = "03";
             // 
             // pictureBox3
@@ -170,7 +170,7 @@
             label9.Location = new Point(133, 40);
             label9.Name = "label9";
             label9.Size = new Size(304, 17);
-            label9.TabIndex = 4;
+            label9.TabIndex = 0;
             label9.Text = "Títulos podem exagerar para chamar atenção";
             // 
             // label10
@@ -192,7 +192,7 @@
             panel4.Location = new Point(12, 346);
             panel4.Name = "panel4";
             panel4.Size = new Size(449, 69);
-            panel4.TabIndex = 5;
+            panel4.TabIndex = 0;
             // 
             // label11
             // 
@@ -202,7 +202,7 @@
             label11.Location = new Point(91, 24);
             label11.Name = "label11";
             label11.Size = new Size(27, 19);
-            label11.TabIndex = 3;
+            label11.TabIndex = 0;
             label11.Text = "04";
             // 
             // pictureBox4
@@ -222,7 +222,7 @@
             label12.Location = new Point(133, 40);
             label12.Name = "label12";
             label12.Size = new Size(295, 17);
-            label12.TabIndex = 4;
+            label12.TabIndex = 0;
             label12.Text = "É importante saber quem escreveu a notícia";
             // 
             // label13
@@ -244,7 +244,7 @@
             panel5.Location = new Point(12, 431);
             panel5.Name = "panel5";
             panel5.Size = new Size(449, 69);
-            panel5.TabIndex = 5;
+            panel5.TabIndex = 0;
             // 
             // label14
             // 
@@ -254,7 +254,7 @@
             label14.Location = new Point(91, 24);
             label14.Name = "label14";
             label14.Size = new Size(27, 19);
-            label14.TabIndex = 3;
+            label14.TabIndex = 0;
             label14.Text = "05";
             // 
             // pictureBox5
@@ -274,7 +274,7 @@
             label15.Location = new Point(133, 40);
             label15.Name = "label15";
             label15.Size = new Size(286, 17);
-            label15.TabIndex = 4;
+            label15.TabIndex = 0;
             label15.Text = "Confirme a informação em sites confiáveis";
             // 
             // label16
@@ -297,7 +297,7 @@
             button1.Location = new Point(360, 541);
             button1.Name = "button1";
             button1.Size = new Size(105, 33);
-            button1.TabIndex = 6;
+            button1.TabIndex = 1;
             button1.Text = "Prosseguir";
             button1.UseVisualStyleBackColor = false;
             button1.Click += AbrirAprenda2;
@@ -311,7 +311,7 @@
             panel6.Location = new Point(12, 174);
             panel6.Name = "panel6";
             panel6.Size = new Size(449, 69);
-            panel6.TabIndex = 5;
+            panel6.TabIndex = 0;
             // 
             // label17
             // 
@@ -321,7 +321,7 @@
             label17.Location = new Point(91, 24);
             label17.Name = "label17";
             label17.Size = new Size(27, 19);
-            label17.TabIndex = 3;
+            label17.TabIndex = 0;
             label17.Text = "02";
             // 
             // pictureBox6
@@ -341,7 +341,7 @@
             label18.Location = new Point(133, 40);
             label18.Name = "label18";
             label18.Size = new Size(166, 17);
-            label18.TabIndex = 4;
+            label18.TabIndex = 0;
             label18.Text = "A notícia pode ser antiga";
             // 
             // label19
@@ -364,7 +364,7 @@
             btnFechar.Location = new Point(12, 541);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
-            btnFechar.TabIndex = 10;
+            btnFechar.TabIndex = 2;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += Fechar;

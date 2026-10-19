@@ -51,7 +51,7 @@
             gbxAlternativas.Location = new Point(12, 217);
             gbxAlternativas.Name = "gbxAlternativas";
             gbxAlternativas.Size = new Size(526, 357);
-            gbxAlternativas.TabIndex = 0;
+            gbxAlternativas.TabIndex = 1;
             gbxAlternativas.TabStop = false;
             gbxAlternativas.Text = "Escolha uma alternativa";
             // 
@@ -64,7 +64,7 @@
             btnAlternativa2.Location = new Point(6, 110);
             btnAlternativa2.Name = "btnAlternativa2";
             btnAlternativa2.Size = new Size(506, 70);
-            btnAlternativa2.TabIndex = 4;
+            btnAlternativa2.TabIndex = 1;
             btnAlternativa2.Text = "A segunda alternativa aparece aqui";
             btnAlternativa2.TextAlign = ContentAlignment.MiddleLeft;
             btnAlternativa2.UseVisualStyleBackColor = false;
@@ -109,7 +109,7 @@
             btnAlternativa1.Location = new Point(6, 34);
             btnAlternativa1.Name = "btnAlternativa1";
             btnAlternativa1.Size = new Size(506, 70);
-            btnAlternativa1.TabIndex = 1;
+            btnAlternativa1.TabIndex = 0;
             btnAlternativa1.Text = "A primeira alternativa aparece aqui";
             btnAlternativa1.TextAlign = ContentAlignment.MiddleLeft;
             btnAlternativa1.UseVisualStyleBackColor = false;
@@ -122,7 +122,7 @@
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
             label1.Size = new Size(208, 22);
-            label1.TabIndex = 1;
+            label1.TabIndex = 0;
             label1.Text = "Número da Pergunta:";
             // 
             // lblNumeroPergunta
@@ -133,7 +133,7 @@
             lblNumeroPergunta.Location = new Point(215, 9);
             lblNumeroPergunta.Name = "lblNumeroPergunta";
             lblNumeroPergunta.Size = new Size(294, 23);
-            lblNumeroPergunta.TabIndex = 2;
+            lblNumeroPergunta.TabIndex = 0;
             lblNumeroPergunta.Text = "O número da sua pergunta aparece aqui";
             // 
             // lblPergunta
@@ -142,7 +142,7 @@
             lblPergunta.Location = new Point(12, 57);
             lblPergunta.Name = "lblPergunta";
             lblPergunta.Size = new Size(526, 147);
-            lblPergunta.TabIndex = 3;
+            lblPergunta.TabIndex = 0;
             lblPergunta.Text = "Sua pergunta aparece aqui";
             // 
             // btnFechar
@@ -155,7 +155,7 @@
             btnFechar.Location = new Point(433, 592);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
-            btnFechar.TabIndex = 10;
+            btnFechar.TabIndex = 2;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += btnFechar_Click;

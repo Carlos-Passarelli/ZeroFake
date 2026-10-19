@@ -57,7 +57,7 @@
             btnDetector.Location = new Point(26, 86);
             btnDetector.Name = "btnDetector";
             btnDetector.Size = new Size(213, 41);
-            btnDetector.TabIndex = 2;
+            btnDetector.TabIndex = 1;
             btnDetector.Text = "Detector de Fake News";
             btnDetector.UseVisualStyleBackColor = false;
             btnDetector.Click += AbrirDetectorFakeNews;
@@ -85,7 +85,7 @@
             btnQuiz.Location = new Point(26, 133);
             btnQuiz.Name = "btnQuiz";
             btnQuiz.Size = new Size(213, 41);
-            btnQuiz.TabIndex = 4;
+            btnQuiz.TabIndex = 2;
             btnQuiz.Text = "Quiz";
             btnQuiz.UseVisualStyleBackColor = false;
             btnQuiz.Click += AbrirQuiz;
@@ -99,7 +99,7 @@
             btnSair.Location = new Point(26, 227);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(213, 41);
-            btnSair.TabIndex = 5;
+            btnSair.TabIndex = 4;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += Sair;

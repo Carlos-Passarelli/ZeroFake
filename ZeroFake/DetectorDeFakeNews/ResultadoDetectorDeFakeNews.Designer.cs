@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultadoDetectorDeFakeNews));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -42,6 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(150, 9);
             label1.Name = "label1";
@@ -52,40 +54,44 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(12, 132);
             label2.Name = "label2";
             label2.Size = new Size(132, 19);
-            label2.TabIndex = 1;
+            label2.TabIndex = 0;
             label2.Text = "Sinais de Alerta:";
             // 
             // label3
             // 
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(12, 156);
             label3.Name = "label3";
             label3.Size = new Size(368, 75);
-            label3.TabIndex = 2;
+            label3.TabIndex = 0;
             label3.Text = "Sinais de alerta aparecem aqui";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(12, 70);
             label4.Name = "label4";
             label4.Size = new Size(152, 18);
-            label4.TabIndex = 3;
+            label4.TabIndex = 0;
             label4.Text = "A notícia analisada é";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(161, 70);
             label5.Name = "label5";
             label5.Size = new Size(56, 19);
-            label5.TabIndex = 4;
+            label5.TabIndex = 0;
             label5.Text = "status";
             // 
             // button1
@@ -98,7 +104,7 @@
             button1.Location = new Point(53, 239);
             button1.Name = "button1";
             button1.Size = new Size(277, 33);
-            button1.TabIndex = 5;
+            button1.TabIndex = 1;
             button1.Text = "Prosseguir para a próxima notícia";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -113,28 +119,30 @@
             btnFechar.Location = new Point(53, 278);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(277, 33);
-            btnFechar.TabIndex = 10;
+            btnFechar.TabIndex = 2;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.Location = new Point(12, 101);
             label6.Name = "label6";
             label6.Size = new Size(104, 18);
-            label6.TabIndex = 11;
+            label6.TabIndex = 0;
             label6.Text = "Você marcou:";
             // 
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.Location = new Point(112, 101);
             label7.Name = "label7";
             label7.Size = new Size(200, 19);
-            label7.TabIndex = 12;
+            label7.TabIndex = 0;
             label7.Text = "qtd marcado / qtd correta";
             // 
             // ResultadoDetectorDeFakeNews
@@ -142,6 +150,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(392, 334);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -152,8 +162,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            StartPosition = FormStartPosition.CenterScreen;
             Name = "ResultadoDetectorDeFakeNews";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Resposta da análise";
             ResumeLayout(false);
             PerformLayout();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRespostaQuiz));
             lblStatus = new Label();
             lblTituloCorreta = new Label();
             lblAlternativaCorreta = new Label();
@@ -36,6 +37,7 @@
             // 
             // lblStatus
             // 
+            lblStatus.BackColor = Color.Transparent;
             lblStatus.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblStatus.Location = new Point(142, 9);
             lblStatus.Name = "lblStatus";
@@ -47,20 +49,22 @@
             // lblTituloCorreta
             // 
             lblTituloCorreta.AutoSize = true;
+            lblTituloCorreta.BackColor = Color.Transparent;
             lblTituloCorreta.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTituloCorreta.Location = new Point(12, 70);
             lblTituloCorreta.Name = "lblTituloCorreta";
             lblTituloCorreta.Size = new Size(154, 19);
-            lblTituloCorreta.TabIndex = 1;
+            lblTituloCorreta.TabIndex = 0;
             lblTituloCorreta.Text = "Alternativa correta:";
             // 
             // lblAlternativaCorreta
             // 
+            lblAlternativaCorreta.BackColor = Color.Transparent;
             lblAlternativaCorreta.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAlternativaCorreta.Location = new Point(12, 98);
             lblAlternativaCorreta.Name = "lblAlternativaCorreta";
             lblAlternativaCorreta.Size = new Size(459, 118);
-            lblAlternativaCorreta.TabIndex = 2;
+            lblAlternativaCorreta.TabIndex = 0;
             lblAlternativaCorreta.Text = "A alternativa correta aparece aqui";
             // 
             // btnProsseguir
@@ -73,7 +77,7 @@
             btnProsseguir.Location = new Point(188, 230);
             btnProsseguir.Name = "btnProsseguir";
             btnProsseguir.Size = new Size(105, 33);
-            btnProsseguir.TabIndex = 8;
+            btnProsseguir.TabIndex = 1;
             btnProsseguir.Text = "Prosseguir";
             btnProsseguir.UseVisualStyleBackColor = false;
             btnProsseguir.Click += btnProsseguir_Click;
@@ -82,6 +86,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(483, 275);
             Controls.Add(btnProsseguir);
             Controls.Add(lblAlternativaCorreta);

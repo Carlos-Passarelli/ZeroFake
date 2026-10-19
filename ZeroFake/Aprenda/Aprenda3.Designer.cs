@@ -77,7 +77,7 @@
             label1.Location = new Point(254, 24);
             label1.Name = "label1";
             label1.Size = new Size(245, 22);
-            label1.TabIndex = 1;
+            label1.TabIndex = 0;
             label1.Text = "Sinais de uma Fake News";
             // 
             // label2
@@ -87,7 +87,7 @@
             label2.Location = new Point(254, 56);
             label2.Name = "label2";
             label2.Size = new Size(402, 42);
-            label2.TabIndex = 2;
+            label2.TabIndex = 0;
             label2.Text = "Nem toda notícia falsa é fácil de identificar. Mas existem alguns sinais que podem te ajudar a perceber:";
             // 
             // label3
@@ -97,7 +97,7 @@
             label3.Location = new Point(61, 18);
             label3.Name = "label3";
             label3.Size = new Size(172, 18);
-            label3.TabIndex = 3;
+            label3.TabIndex = 0;
             label3.Text = "Títulos sensacionalistas";
             // 
             // pictureBox2
@@ -118,7 +118,7 @@
             panel1.Location = new Point(254, 115);
             panel1.Name = "panel1";
             panel1.Size = new Size(402, 53);
-            panel1.TabIndex = 5;
+            panel1.TabIndex = 0;
             // 
             // panel2
             // 
@@ -128,7 +128,7 @@
             panel2.Location = new Point(254, 174);
             panel2.Name = "panel2";
             panel2.Size = new Size(402, 53);
-            panel2.TabIndex = 6;
+            panel2.TabIndex = 0;
             // 
             // pictureBox3
             // 
@@ -147,7 +147,7 @@
             label4.Location = new Point(61, 18);
             label4.Name = "label4";
             label4.Size = new Size(185, 18);
-            label4.TabIndex = 3;
+            label4.TabIndex = 0;
             label4.Text = "Falta de fontes confiáveis";
             // 
             // panel3
@@ -158,7 +158,7 @@
             panel3.Location = new Point(254, 292);
             panel3.Name = "panel3";
             panel3.Size = new Size(402, 53);
-            panel3.TabIndex = 6;
+            panel3.TabIndex = 0;
             // 
             // pictureBox4
             // 
@@ -177,7 +177,7 @@
             label5.Location = new Point(61, 18);
             label5.Name = "label5";
             label5.Size = new Size(182, 18);
-            label5.TabIndex = 3;
+            label5.TabIndex = 0;
             label5.Text = "Imagens fora de contexto";
             // 
             // panel4
@@ -188,7 +188,7 @@
             panel4.Location = new Point(254, 233);
             panel4.Name = "panel4";
             panel4.Size = new Size(402, 53);
-            panel4.TabIndex = 6;
+            panel4.TabIndex = 0;
             // 
             // pictureBox5
             // 
@@ -207,7 +207,7 @@
             label6.Location = new Point(61, 18);
             label6.Name = "label6";
             label6.Size = new Size(228, 18);
-            label6.TabIndex = 3;
+            label6.TabIndex = 0;
             label6.Text = "Erros de português e gramática";
             // 
             // btnFechar
@@ -220,7 +220,7 @@
             btnFechar.Location = new Point(551, 359);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
-            btnFechar.TabIndex = 8;
+            btnFechar.TabIndex = 1;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += Fechar;
@@ -240,7 +240,6 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(671, 404);
             Controls.Add(pictureBox6);

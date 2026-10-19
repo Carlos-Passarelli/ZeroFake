@@ -70,7 +70,7 @@
             label2.Location = new Point(218, 68);
             label2.Name = "label2";
             label2.Size = new Size(370, 18);
-            label2.TabIndex = 1;
+            label2.TabIndex = 0;
             label2.Text = "Aqui estão algumas categorias de fontes confiáveis:";
             // 
             // panel1
@@ -81,7 +81,7 @@
             panel1.Location = new Point(12, 135);
             panel1.Name = "panel1";
             panel1.Size = new Size(239, 272);
-            panel1.TabIndex = 2;
+            panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -99,7 +99,7 @@
             label4.Location = new Point(18, 206);
             label4.Name = "label4";
             label4.Size = new Size(202, 43);
-            label4.TabIndex = 4;
+            label4.TabIndex = 0;
             label4.Text = "Fontes que produzem notícias jornalísticas";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -110,7 +110,7 @@
             label3.Location = new Point(18, 173);
             label3.Name = "label3";
             label3.Size = new Size(202, 22);
-            label3.TabIndex = 4;
+            label3.TabIndex = 0;
             label3.Text = "Agências de notícias";
             // 
             // panel2
@@ -121,7 +121,7 @@
             panel2.Location = new Point(282, 135);
             panel2.Name = "panel2";
             panel2.Size = new Size(239, 272);
-            panel2.TabIndex = 5;
+            panel2.TabIndex = 0;
             // 
             // pictureBox2
             // 
@@ -139,7 +139,7 @@
             label5.Location = new Point(18, 206);
             label5.Name = "label5";
             label5.Size = new Size(202, 43);
-            label5.TabIndex = 4;
+            label5.TabIndex = 0;
             label5.Text = "Sites de órgãos e instituições";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -150,7 +150,7 @@
             label6.Location = new Point(44, 173);
             label6.Name = "label6";
             label6.Size = new Size(145, 22);
-            label6.TabIndex = 4;
+            label6.TabIndex = 0;
             label6.Text = "Fontes oficiais";
             // 
             // panel3
@@ -161,7 +161,7 @@
             panel3.Location = new Point(549, 135);
             panel3.Name = "panel3";
             panel3.Size = new Size(239, 272);
-            panel3.TabIndex = 5;
+            panel3.TabIndex = 0;
             // 
             // pictureBox3
             // 
@@ -180,7 +180,7 @@
             label7.Name = "label7";
             label7.RightToLeft = RightToLeft.No;
             label7.Size = new Size(202, 43);
-            label7.TabIndex = 4;
+            label7.TabIndex = 0;
             label7.Text = "Sites especializados em verificação de informações";
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -191,7 +191,7 @@
             label8.Location = new Point(61, 173);
             label8.Name = "label8";
             label8.Size = new Size(109, 22);
-            label8.TabIndex = 4;
+            label8.TabIndex = 0;
             label8.Text = "Checagem";
             // 
             // btnProsseguir
@@ -204,7 +204,7 @@
             btnProsseguir.Location = new Point(683, 449);
             btnProsseguir.Name = "btnProsseguir";
             btnProsseguir.Size = new Size(105, 33);
-            btnProsseguir.TabIndex = 7;
+            btnProsseguir.TabIndex = 1;
             btnProsseguir.Text = "Prosseguir";
             btnProsseguir.UseVisualStyleBackColor = false;
             btnProsseguir.Click += AbrirAprenda3;
@@ -219,7 +219,7 @@
             btnFechar.Location = new Point(12, 449);
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
-            btnFechar.TabIndex = 9;
+            btnFechar.TabIndex = 2;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += Fechar;
@@ -228,6 +228,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 494);
             Controls.Add(btnFechar);
             Controls.Add(btnProsseguir);

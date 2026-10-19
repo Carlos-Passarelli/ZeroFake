@@ -66,7 +66,7 @@
             lblTituloNoticia.Location = new Point(15, 32);
             lblTituloNoticia.Name = "lblTituloNoticia";
             lblTituloNoticia.Size = new Size(280, 19);
-            lblTituloNoticia.TabIndex = 1;
+            lblTituloNoticia.TabIndex = 0;
             lblTituloNoticia.Text = "O Título da sua notícia aparece aqui";
             lblTituloNoticia.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -76,7 +76,7 @@
             lblNoticia.Location = new Point(16, 170);
             lblNoticia.Name = "lblNoticia";
             lblNoticia.Size = new Size(696, 200);
-            lblNoticia.TabIndex = 2;
+            lblNoticia.TabIndex = 0;
             lblNoticia.Text = "Sua notícia aparece aqui";
             // 
             // lblAutorNoticia
@@ -86,7 +86,7 @@
             lblAutorNoticia.Location = new Point(15, 66);
             lblAutorNoticia.Name = "lblAutorNoticia";
             lblAutorNoticia.Size = new Size(255, 18);
-            lblAutorNoticia.TabIndex = 3;
+            lblAutorNoticia.TabIndex = 0;
             lblAutorNoticia.Text = "O autor da sua notícia aparece aqui";
             lblAutorNoticia.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -97,7 +97,7 @@
             lblDataNoticia.Location = new Point(15, 96);
             lblDataNoticia.Name = "lblDataNoticia";
             lblDataNoticia.Size = new Size(250, 18);
-            lblDataNoticia.TabIndex = 4;
+            lblDataNoticia.TabIndex = 0;
             lblDataNoticia.Text = "A data da sua noticia aparece aqui";
             // 
             // lblFonteNoticia
@@ -107,7 +107,7 @@
             lblFonteNoticia.Location = new Point(16, 125);
             lblFonteNoticia.Name = "lblFonteNoticia";
             lblFonteNoticia.Size = new Size(253, 18);
-            lblFonteNoticia.TabIndex = 5;
+            lblFonteNoticia.TabIndex = 0;
             lblFonteNoticia.Text = "A fonte da sua noticia aparece aqui";
             // 
             // gbxNoticia
@@ -123,7 +123,7 @@
             gbxNoticia.Location = new Point(12, 67);
             gbxNoticia.Name = "gbxNoticia";
             gbxNoticia.Size = new Size(730, 401);
-            gbxNoticia.TabIndex = 6;
+            gbxNoticia.TabIndex = 0;
             gbxNoticia.TabStop = false;
             gbxNoticia.Text = "Analise a notícia abaixo:";
             // 
@@ -136,7 +136,7 @@
             chkAutor.Location = new Point(12, 474);
             chkAutor.Name = "chkAutor";
             chkAutor.Size = new Size(147, 24);
-            chkAutor.TabIndex = 7;
+            chkAutor.TabIndex = 1;
             chkAutor.Text = "Autor desconhecido";
             chkAutor.UseVisualStyleBackColor = true;
             // 
@@ -150,7 +150,7 @@
             chkFonte.Location = new Point(226, 504);
             chkFonte.Name = "chkFonte";
             chkFonte.Size = new Size(149, 24);
-            chkFonte.TabIndex = 8;
+            chkFonte.TabIndex = 5;
             chkFonte.Text = "Fonte desconhecida";
             chkFonte.UseVisualStyleBackColor = true;
             // 
@@ -164,7 +164,7 @@
             chkData.Location = new Point(226, 474);
             chkData.Name = "chkData";
             chkData.Size = new Size(180, 24);
-            chkData.TabIndex = 9;
+            chkData.TabIndex = 2;
             chkData.Text = "Data de publicação antiga";
             chkData.UseVisualStyleBackColor = true;
             // 
@@ -178,7 +178,7 @@
             chkLinguagem.Location = new Point(12, 504);
             chkLinguagem.Name = "chkLinguagem";
             chkLinguagem.Size = new Size(187, 24);
-            chkLinguagem.TabIndex = 10;
+            chkLinguagem.TabIndex = 4;
             chkLinguagem.Text = "Linguagem sensacionalista";
             chkLinguagem.UseVisualStyleBackColor = true;
             // 
@@ -192,7 +192,7 @@
             chkTitulo.Location = new Point(422, 474);
             chkTitulo.Name = "chkTitulo";
             chkTitulo.Size = new Size(126, 24);
-            chkTitulo.TabIndex = 11;
+            chkTitulo.TabIndex = 3;
             chkTitulo.Text = "Título exagerado";
             chkTitulo.UseVisualStyleBackColor = true;
             // 
@@ -207,7 +207,7 @@
             btnFinalizarAnalise.Location = new Point(12, 544);
             btnFinalizarAnalise.Name = "btnFinalizarAnalise";
             btnFinalizarAnalise.Size = new Size(550, 37);
-            btnFinalizarAnalise.TabIndex = 12;
+            btnFinalizarAnalise.TabIndex = 6;
             btnFinalizarAnalise.Text = "Finalizar Análise";
             btnFinalizarAnalise.UseVisualStyleBackColor = false;
             // 
@@ -222,7 +222,7 @@
             btnSair.Location = new Point(572, 544);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(169, 37);
-            btnSair.TabIndex = 13;
+            btnSair.TabIndex = 7;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
             // 
