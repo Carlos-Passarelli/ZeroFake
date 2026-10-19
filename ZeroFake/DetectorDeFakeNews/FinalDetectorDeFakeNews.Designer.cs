@@ -181,6 +181,7 @@
             Controls.Add(panel1);
             Controls.Add(label5);
             Controls.Add(lblMensagemDesempenho);
+            StartPosition = FormStartPosition.CenterScreen;
             Name = "frmFinalDetectorDeFakeNews";
             Text = "Final do Detector de Fake News";
             panel1.ResumeLayout(false);
