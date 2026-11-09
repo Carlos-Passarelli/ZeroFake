@@ -171,8 +171,8 @@
             // 
             // frmFinalDetectorDeFakeNews
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(559, 290);
@@ -181,6 +181,8 @@
             Controls.Add(panel1);
             Controls.Add(label5);
             Controls.Add(lblMensagemDesempenho);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "frmFinalDetectorDeFakeNews";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Final do Detector de Fake News";

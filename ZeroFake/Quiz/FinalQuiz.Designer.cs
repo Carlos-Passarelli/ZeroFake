@@ -149,8 +149,8 @@
             // 
             // frmFinalQuiz
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(514, 240);
@@ -160,6 +160,7 @@
             Controls.Add(label5);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "frmFinalQuiz";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Final do Quiz";

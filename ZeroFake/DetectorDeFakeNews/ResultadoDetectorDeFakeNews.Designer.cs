@@ -147,8 +147,8 @@
             // 
             // ResultadoDetectorDeFakeNews
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             AutoSize = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
@@ -162,6 +162,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "ResultadoDetectorDeFakeNews";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Resposta da análise";

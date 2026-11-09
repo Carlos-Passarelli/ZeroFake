@@ -238,8 +238,8 @@
             // 
             // frmAprenda3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(671, 404);
             Controls.Add(pictureBox6);
@@ -252,6 +252,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "frmAprenda3";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Aprenda - Parte 3";

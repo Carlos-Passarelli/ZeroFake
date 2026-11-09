@@ -228,8 +228,8 @@
             // 
             // frmDetector
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             AutoSize = true;
             ClientSize = new Size(754, 594);
             Controls.Add(btnSair);
@@ -241,6 +241,8 @@
             Controls.Add(chkAutor);
             Controls.Add(gbxNoticia);
             Controls.Add(btnComecarAnalise);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "frmDetector";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Detector de Fake News";

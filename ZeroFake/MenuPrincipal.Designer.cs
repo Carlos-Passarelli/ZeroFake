@@ -41,10 +41,10 @@
             lblZeroFake.AutoSize = true;
             lblZeroFake.BackColor = Color.Transparent;
             lblZeroFake.FlatStyle = FlatStyle.Popup;
-            lblZeroFake.Font = new Font("Agency FB", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblZeroFake.Location = new Point(45, 9);
+            lblZeroFake.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblZeroFake.Location = new Point(12, 9);
             lblZeroFake.Name = "lblZeroFake";
-            lblZeroFake.Size = new Size(170, 59);
+            lblZeroFake.Size = new Size(238, 55);
             lblZeroFake.TabIndex = 0;
             lblZeroFake.Text = "ZeroFake";
             // 
@@ -106,8 +106,8 @@
             // 
             // frmMenuPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.White;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
@@ -118,6 +118,7 @@
             Controls.Add(btnDetector);
             Controls.Add(lblZeroFake);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "frmMenuPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu Principal";
@@ -132,5 +133,6 @@
         private Button btnAprenda;
         private Button btnQuiz;
         private Button btnSair;
+        private Button btnCreditos;
     }
 }
