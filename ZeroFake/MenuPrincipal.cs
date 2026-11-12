@@ -1,3 +1,5 @@
+using ZeroFake.Créditos;
+
 namespace ZeroFake
 {
     public partial class frmMenuPrincipal : Form
@@ -38,6 +40,13 @@ namespace ZeroFake
         {
             this.Hide();
             frmDetector tela = new frmDetector();
+            tela.ShowDialog();
+            this.Show();
+        }
+
+        private void btnCredito_Click(object sender, EventArgs e)
+        {
+            frmCreditos tela = new frmCreditos();
             tela.ShowDialog();
             this.Show();
         }

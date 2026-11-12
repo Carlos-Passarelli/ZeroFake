@@ -34,6 +34,7 @@
             btnAprenda = new Button();
             btnQuiz = new Button();
             btnSair = new Button();
+            btnCredito = new Button();
             SuspendLayout();
             // 
             // lblZeroFake
@@ -96,13 +97,27 @@
             btnSair.Cursor = Cursors.Hand;
             btnSair.FlatStyle = FlatStyle.Popup;
             btnSair.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSair.Location = new Point(26, 227);
+            btnSair.Location = new Point(26, 274);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(213, 41);
             btnSair.TabIndex = 4;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += Sair;
+            // 
+            // btnCredito
+            // 
+            btnCredito.BackColor = Color.Silver;
+            btnCredito.Cursor = Cursors.Hand;
+            btnCredito.FlatStyle = FlatStyle.Popup;
+            btnCredito.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCredito.Location = new Point(26, 227);
+            btnCredito.Name = "btnCredito";
+            btnCredito.Size = new Size(213, 41);
+            btnCredito.TabIndex = 5;
+            btnCredito.Text = "Créditos";
+            btnCredito.UseVisualStyleBackColor = false;
+            btnCredito.Click += btnCredito_Click;
             // 
             // frmMenuPrincipal
             // 
@@ -111,7 +126,8 @@
             BackColor = Color.White;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(270, 280);
+            ClientSize = new Size(270, 330);
+            Controls.Add(btnCredito);
             Controls.Add(btnSair);
             Controls.Add(btnQuiz);
             Controls.Add(btnAprenda);
@@ -134,5 +150,6 @@
         private Button btnQuiz;
         private Button btnSair;
         private Button btnCreditos;
+        private Button btnCredito;
     }
 }

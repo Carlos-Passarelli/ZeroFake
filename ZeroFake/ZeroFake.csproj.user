@@ -10,6 +10,9 @@
     <Compile Update="Aprenda\Aprenda3.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Créditos\frmCreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DetectorDeFakeNews\ResultadoDetectorDeFakeNews.cs">
       <SubType>Form</SubType>
     </Compile>
