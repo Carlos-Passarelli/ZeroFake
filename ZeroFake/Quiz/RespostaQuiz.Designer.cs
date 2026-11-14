@@ -39,21 +39,20 @@
             // 
             lblStatus.BackColor = Color.Transparent;
             lblStatus.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblStatus.Location = new Point(142, 9);
+            lblStatus.Location = new Point(12, 9);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(199, 29);
+            lblStatus.Size = new Size(459, 29);
             lblStatus.TabIndex = 0;
             lblStatus.Text = "Status";
             lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lblTituloCorreta
             // 
-            lblTituloCorreta.AutoSize = true;
             lblTituloCorreta.BackColor = Color.Transparent;
             lblTituloCorreta.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTituloCorreta.Location = new Point(12, 70);
             lblTituloCorreta.Name = "lblTituloCorreta";
-            lblTituloCorreta.Size = new Size(154, 19);
+            lblTituloCorreta.Size = new Size(459, 19);
             lblTituloCorreta.TabIndex = 0;
             lblTituloCorreta.Text = "Alternativa correta:";
             // 
@@ -99,7 +98,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Resposta do Quiz";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

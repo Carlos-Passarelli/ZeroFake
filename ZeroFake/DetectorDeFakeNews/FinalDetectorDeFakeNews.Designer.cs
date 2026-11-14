@@ -45,24 +45,25 @@
             // 
             // lblMensagemDesempenho
             // 
-            lblMensagemDesempenho.AutoSize = true;
             lblMensagemDesempenho.BackColor = Color.Transparent;
             lblMensagemDesempenho.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMensagemDesempenho.Location = new Point(121, 29);
+            lblMensagemDesempenho.Location = new Point(21, 29);
             lblMensagemDesempenho.Name = "lblMensagemDesempenho";
-            lblMensagemDesempenho.Size = new Size(334, 32);
+            lblMensagemDesempenho.Size = new Size(517, 32);
             lblMensagemDesempenho.TabIndex = 0;
             lblMensagemDesempenho.Text = "Mensagem desempenho";
+            lblMensagemDesempenho.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(156, 74);
+            label5.Location = new Point(21, 74);
             label5.Name = "label5";
-            label5.Size = new Size(227, 23);
+            label5.Size = new Size(517, 23);
             label5.TabIndex = 0;
             label5.Text = "Você analisou todas as notícias";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -189,7 +190,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

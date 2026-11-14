@@ -79,16 +79,16 @@
             label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(12, 70);
             label4.Name = "label4";
-            label4.Size = new Size(152, 18);
+            label4.Size = new Size(156, 18);
             label4.TabIndex = 0;
-            label4.Text = "A notícia analisada é";
+            label4.Text = "A notícia analisada é:";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(161, 70);
+            label5.Location = new Point(170, 70);
             label5.Name = "label5";
             label5.Size = new Size(56, 19);
             label5.TabIndex = 0;
