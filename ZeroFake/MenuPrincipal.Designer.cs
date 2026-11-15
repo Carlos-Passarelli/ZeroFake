@@ -100,7 +100,7 @@
             btnSair.Location = new Point(26, 274);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(213, 41);
-            btnSair.TabIndex = 4;
+            btnSair.TabIndex = 5;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += Sair;
@@ -114,7 +114,7 @@
             btnCredito.Location = new Point(26, 227);
             btnCredito.Name = "btnCredito";
             btnCredito.Size = new Size(213, 41);
-            btnCredito.TabIndex = 5;
+            btnCredito.TabIndex = 4;
             btnCredito.Text = "Créditos";
             btnCredito.UseVisualStyleBackColor = false;
             btnCredito.Click += btnCredito_Click;
@@ -134,6 +134,7 @@
             Controls.Add(btnDetector);
             Controls.Add(lblZeroFake);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "frmMenuPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
