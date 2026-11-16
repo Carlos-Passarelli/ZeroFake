@@ -35,11 +35,11 @@
             lbl4 = new Label();
             lbl5 = new Label();
             gbxCreditos = new GroupBox();
+            lbl3 = new Label();
             label1 = new Label();
             imageList1 = new ImageList(components);
             pictureBox1 = new PictureBox();
             btnFechar = new Button();
-            lbl3 = new Label();
             gbxCreditos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -97,6 +97,15 @@
             gbxCreditos.TabIndex = 5;
             gbxCreditos.TabStop = false;
             // 
+            // lbl3
+            // 
+            lbl3.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl3.Location = new Point(6, 73);
+            lbl3.Name = "lbl3";
+            lbl3.Size = new Size(437, 79);
+            lbl3.TabIndex = 5;
+            lbl3.Text = resources.GetString("lbl3.Text");
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -134,18 +143,9 @@
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
             btnFechar.TabIndex = 8;
-            btnFechar.Text = "Fechar";
+            btnFechar.Text = "Voltar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += btnFechar_Click;
-            // 
-            // lbl3
-            // 
-            lbl3.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl3.Location = new Point(6, 73);
-            lbl3.Name = "lbl3";
-            lbl3.Size = new Size(437, 79);
-            lbl3.TabIndex = 5;
-            lbl3.Text = resources.GetString("lbl3.Text");
             // 
             // frmCreditos
             // 

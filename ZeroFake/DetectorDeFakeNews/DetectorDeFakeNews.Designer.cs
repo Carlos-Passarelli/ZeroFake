@@ -223,7 +223,7 @@
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(169, 37);
             btnSair.TabIndex = 7;
-            btnSair.Text = "Sair";
+            btnSair.Text = "Voltar";
             btnSair.UseVisualStyleBackColor = false;
             // 
             // frmDetector

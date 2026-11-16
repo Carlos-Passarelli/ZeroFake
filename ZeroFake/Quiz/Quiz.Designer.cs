@@ -156,7 +156,7 @@
             btnFechar.Name = "btnFechar";
             btnFechar.Size = new Size(105, 33);
             btnFechar.TabIndex = 2;
-            btnFechar.Text = "Fechar";
+            btnFechar.Text = "Voltar";
             btnFechar.UseVisualStyleBackColor = false;
             btnFechar.Click += btnFechar_Click;
             // 
